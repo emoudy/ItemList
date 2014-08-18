@@ -1,0 +1,86 @@
+/*_________________________________________________
+
+Tabs CSS
+_________________________________________________
+*/
+
+.tabs li 
+{
+	list-style: none;
+	display: inline;
+}
+.tabs a 
+{
+	padding:5px 10px;
+	display:inline-block;
+	background:#666;
+	color:#fff;
+	text-decoration: none;
+	margin-top: -15px;
+}
+.tabs a.active 
+{
+	background:#fff;
+	color:#000;
+	text-decoration: none;
+}
+.tabs a:hover 
+{
+  text-decoration: underline;
+  color: red;
+}
+
+/*_________________________________________________
+
+CSS
+_________________________________________________
+*/
+body
+{
+	margin-top: 30px;
+}
+.content
+{
+	width: 940px;
+	height: 250px;
+	margin: 0px auto;
+	background:#fff
+}
+#container 
+{
+	background-color: #dddddd;
+	margin: 0 auto;
+	width: 970px;
+}
+textarea
+{
+	width: 455px;
+	height: 100px;
+}
+#tab_tasks_newtask 
+{
+	width: 450px;
+	float: right;
+	margin-right: 15px;
+	background:#fff
+}
+#tab_tasks_list
+{
+	width: 450px;
+	float: left;
+	margin-left: 15px;
+	background:#fff
+}
+#footer
+{
+	clear: both;
+	margin-top: 0px;
+	padding-top: 1px;
+	text-align: center;
+	vertical-align: center;
+}
+div h3
+{
+	text-align: left;
+	clear: both;
+}
